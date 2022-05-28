@@ -1,0 +1,162 @@
+body {
+    background-color: rgb(248, 242, 242);
+    font-family: 'Epilogue', sans-serif;
+}
+
+.div-header {
+    margin: 2% 2% 2%;
+
+
+}
+
+.logo {
+    margin-right: 3%;
+    margin-top: 0.5%;
+}
+
+.nav-bar {
+    display: flex;
+    margin-top: 2%;
+}
+
+.dropdown {
+    width: 12%;
+
+}
+
+#drop_down {
+    width: 10%;
+}
+
+.dropdown a {
+    position: relative;
+    display: inline-block;
+    color: rgb(24, 23, 23);
+    text-decoration: none;
+    margin: 3%;
+    padding: 3%;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    background-color: white;
+    border: 1px solid rgb(241, 240, 240);
+    border-radius: 7px;
+    width: 100%;
+
+}
+
+.nav-right {
+
+    text-decoration: none;
+    width: 25%;
+    padding: 6px 25px 0 25px;
+
+
+}
+
+.nav-right a {
+    text-decoration: none;
+    color: rgb(111, 111, 116);
+    margin-right: 12%;
+    padding-top: 3%;
+
+}
+
+.nav-right a:hover {
+    color: rgb(0, 0, 41);
+}
+
+.btn {
+    
+    margin-left: 30%;
+    width: 25%;
+  
+
+}
+#btn-login{
+    background-color: rgb(248, 242, 242); 
+    border: none;
+    color: gray;
+}
+#btn-login:hover{
+    text-decoration: none;
+    color:black;
+}
+
+#btn-register{
+    color: gray;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid gray;
+    padding: 4px 12px 4px 12px;
+    margin-left:20%;
+}
+#btn-register:hover{
+    border: solid 1px black;
+    color: black;
+
+}
+.content{
+    display: flex;
+    margin-top: 4%;
+}
+.aside-left{
+    margin-top: 8%;
+    margin-left: 8%;
+    width: 50%;
+    
+    
+}
+h1{
+    font-size: 60px;
+    font-weight: bold;
+    margin-left: 3%;
+}
+p{
+    font-size: 18px;
+    margin-left: 3%;
+    margin-top: 10%;
+    text-align: justify;
+}
+.aside-right{
+    margin-right: 8%;
+}
+.btn-aside{
+    padding: 10px 15px 10px 15px;
+    border-radius: 10px;
+    border: solid 1px gray;
+    background-color: black;
+    color: white;
+    margin-top: 5%;
+    margin-left: 3%;
+}
+.btn-aside:hover{
+    background-color: rgb(248, 242, 242);
+    color: black;
+    font-weight: bold;
+}
+.img-hero{
+    width: 500px;
+    height: 600px;
+}
+.img-cliente{
+    margin-left: 2%;
+    margin-top: -2%;
+}
+.img-client{
+    margin-left: 7%;
+    margin-bottom: 2%;
+}
